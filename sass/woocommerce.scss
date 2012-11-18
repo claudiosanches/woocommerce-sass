@@ -124,7 +124,7 @@ div.product, #content div.product {
 
     /* Main product title */
     .product_title {
-        clear:none;
+        clear: none;
         margin-top: 0;
         padding: 0;
     }
@@ -204,7 +204,7 @@ div.product, #content div.product {
             }
         }
         iframe {
-            float:left;
+            float: left;
             margin-top: 3px;
         }
     }
@@ -240,7 +240,7 @@ div.product, #content div.product {
                     text-decoration: none;
 
                     &:hover {
-                        text-decoration:none;
+                        text-decoration: none;
                         color: lighten( $secondarytext, 10 );
                     }
                 }
@@ -453,7 +453,7 @@ ul.products {
                 margin: -2px 0 0 0;
             }
             ins {
-                background:none;
+                background: none;
             }
             .from {
                 font-size: 0.67em;
@@ -509,7 +509,7 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
             right: 0;
             left: 0;
             bottom: 0;
-            background: url("../images/ajax-loader.gif") center no-repeat rgba(255,255,255,0.65);
+            background: url("../images/ajax-loader.gif") center no-repeat rgba(255, 255, 255, 0.65);
         }
     }
 
@@ -581,15 +581,15 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
         display: block;
         padding: 0;
         margin: 0;
-        position:absolute;
+        position: absolute;
         text-align: center;
         vertical-align: text-top;
         width: 20px;
         height: 15px;
-        text-decoration:none;
+        text-decoration: none;
         overflow: visible;
-        text-decoration:none;
-        font-weight:bold;
+        text-decoration: none;
+        font-weight: bold;
         cursor: pointer;
         line-height: 13px;
         font-size: 12px;
@@ -630,7 +630,7 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
         line-height: 21px;
         margin: 10px 0 0 0;
         a {
-            text-decoration:none;
+            text-decoration: none;
             color: $subtext;
         }
     }
@@ -656,7 +656,7 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
             @include pie-clearfix;
             margin: 0;
             width: 100%;
-            background:none;
+            background: none;
             li {
                 padding: 00;
                 margin: 0 0 20px;
@@ -669,13 +669,13 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
                     font-size: 0.75em;
                 }
                 img {
-                    float:left;
-                    position:absolute;
+                    float: left;
+                    position: absolute;
                     top: 0;
                     left: 0;
                     padding: 3px;
                     width: 32px;
-                    height:auto;
+                    height: auto;
                     background: $secondary;
                     border: 1px solid darken( $secondary, 3 );
                     margin: 0;
@@ -711,8 +711,8 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
         background: url("../images/star.png") repeat-x left -32px;
         height: 0;
         padding-top: 16px;
-        overflow:hidden;
-        float:left;
+        overflow: hidden;
+        float: left;
     }
 }
 
@@ -752,17 +752,17 @@ p.stars {
         width: 80px;
         height: 16px;
         position: relative;
-        float:left;
+        float: left;
         background: url("../images/star.png") repeat-x left 0;
         a {
-            float:left;
-            position:absolute;
+            float: left;
+            position: absolute;
             left: 0;
             top: 0;
             width: 16px;
             height: 0;
             padding-top: 16px;
-            overflow:hidden;
+            overflow: hidden;
         }
         a:hover, a:focus {
             background: url("../images/star.png") repeat-x left -16px;
@@ -783,15 +783,15 @@ p.stars {
 
 table.shop_attributes {
     border: 0;
-    border-top: 1px dotted rgba(0,0,0,0.1);
+    border-top: 1px dotted rgba(0, 0, 0, 0.1);
     margin-bottom: 1.618em;
     width: 100%;
     th {
         width: 150px;
-        font-weight:bold;
+        font-weight: bold;
         padding: 8px;
         border-top: 0;
-        border-bottom: 1px dotted rgba(0,0,0,0.1);
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
         margin: 0;
         line-height: 1.5em;
     }
@@ -799,7 +799,7 @@ table.shop_attributes {
         font-style: italic;
         padding: 0;
         border-top: 0;
-        border-bottom: 1px dotted rgba(0,0,0,0.1);
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
         margin: 0;
         line-height: 1.5em;
         p {
@@ -808,24 +808,24 @@ table.shop_attributes {
         }
     }
     .alt td, .alt th {
-        background: rgba(0,0,0,0.025);
+        background: rgba(0, 0, 0, 0.025);
     }
 }
 
 table.shop_table {
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0px -1px 24px 0px;
-    text-align:left;
+    text-align: left;
     width: 100%;
     border-collapse: separate;
     @include border-radius( 5px );
     th {
-        font-weight:bold;
+        font-weight: bold;
         line-height: 18px;
         padding: 9px 12px;
     }
     td {
-        border-top: 1px solid rgba(0,0,0,0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
         padding: 6px 12px;
         vertical-align: middle;
     }
@@ -833,7 +833,7 @@ table.shop_table {
         text-align: center;
     }
     tfoot td {
-        font-weight:bold;
+        font-weight: bold;
     }
 }
 
@@ -844,7 +844,7 @@ table.my_account_orders {
         vertical-align: top;
     }
     .button {
-        white-space:nowrap;
+        white-space: nowrap;
     }
 }
 
@@ -853,9 +853,9 @@ td.product-name {
         margin: .25em 0 .5em;
         font-size: 0.8751em;
         dt {
-            font-weight:bold;
-            float:left;
-            clear:left;
+            font-weight: bold;
+            float: left;
+            clear: left;
             margin: 0 .25em 0 0;
             padding: 0;
         }
@@ -881,13 +881,13 @@ table.cart, #content table.cart {
     }
     img {
         width: 32px;
-        height:auto;
+        height: auto;
     }
     th, td {
         vertical-align: middle;
     }
     a.remove {
-        display:block;
+        display: block;
         height: 16px;
         width: 16px;
         text-indent: -9999px;
@@ -899,9 +899,9 @@ table.cart, #content table.cart {
     td.actions {
         text-align: right;
         .coupon {
-            float:left;
+            float: left;
             label {
-                display:none;
+                display: none;
             }
             .input-text {
                 width: 80px;
@@ -955,11 +955,11 @@ ul.cart_list, ul.product_list_widget {
             margin: 0;
             font-size: 0.8751em;
             padding-left: 1em;
-            border-left: 2px solid rgba(0,0,0,0.1);
+            border-left: 2px solid rgba(0, 0, 0, 0.1);
 
             dt {
-                float:left;
-                clear:left;
+                float: left;
+                clear: left;
                 margin-right: .25em;
             }
 
@@ -968,7 +968,7 @@ ul.cart_list, ul.product_list_widget {
             }
         }
         .star-rating {
-            float:none;
+            float: none;
         }
     }
 }
@@ -996,15 +996,15 @@ ul.cart_list, ul.product_list_widget {
     width: 100%;
     .related {
         width: 30.75%;
-        float:left;
+        float: left;
     }
 
     .cross-sells {
         width: 48%;
-        float:left;
+        float: left;
 
         ul.products {
-            float:none;
+            float: none;
 
             li {
                 width: 48%;
@@ -1020,8 +1020,8 @@ ul.cart_list, ul.product_list_widget {
         float: right;
         .button {
             width: 100%;
-            float:none;
-            display:block;
+            float: none;
+            display: block;
         }
         .col2-set {
             .col-1, .col-2 {
@@ -1055,7 +1055,7 @@ ul.cart_list, ul.product_list_widget {
                 padding: 6px 3px;
             }
             small {
-                display:block;
+                display: block;
                 color: $subtext;
             }
             select {
@@ -1071,7 +1071,7 @@ ul.cart_list, ul.product_list_widget {
         }
         a.button.alt {
             width: 193px;
-            display:block;
+            display: block;
             font-size: 0.92em;
         }
     }
@@ -1087,10 +1087,10 @@ form {
         margin: 0 0 6px;
 
         label {
-            display:block;
+            display: block;
         }
         label.hidden {
-            visibility:hidden;
+            visibility: hidden;
         }
         select {
             width: 100%;
@@ -1099,7 +1099,7 @@ form {
         }
         .required {
             color: red;
-            font-weight:bold;
+            font-weight: bold;
             border: 0;
         }
         .input-checkbox {
@@ -1126,7 +1126,7 @@ form {
         }
     }
     .form-row-first, .form-row-last {
-        float:left;
+        float: left;
         width: 47%;
         overflow: visible;
     }
@@ -1139,7 +1139,7 @@ form.login, form.checkout_coupon, form.register {
     border: 1px solid darken( $secondary, 10 );
     padding: 20px;
     margin: 2em 0 2em 0px;
-    text-align:left;
+    text-align: left;
     @include border-radius( 5px );
 }
 
@@ -1164,21 +1164,21 @@ ul#shipping_method {
 .checkout {
     .col-2 {
         h3 {
-            float:left;
-            clear:none;
+            float: left;
+            clear: none;
         }
 
         .notes {
-            clear:left;
+            clear: left;
         }
 
         .form-row-first {
-            clear:left;
+            clear: left;
         }
     }
     div.shipping-address {
         padding: 0;
-        clear:left;
+        clear: left;
         width: 100%;
     }
 
@@ -1201,16 +1201,16 @@ ul#shipping_method {
 
     ul.payment_methods {
         @include pie-clearfix;
-        text-align:left;
+        text-align: left;
         padding: 1em;
         border-bottom: 1px solid darken( $secondary, 10 );
         margin: 0;
-        list-style:none outside;
+        list-style: none outside;
         li {
             line-height: 2em;
-            text-align:left;
+            text-align: left;
             margin: 0;
-            font-weight:normal;
+            font-weight: normal;
             input {
                 margin: 0 1em 0 0;
             }
@@ -1262,7 +1262,7 @@ ul#shipping_method {
             font-size: 11px;
             color: $subtext;
             line-height: 13px;
-            font-weight:normal;
+            font-weight: normal;
         }
         .form-row {
             margin: 0 0 1em;
@@ -1317,7 +1317,7 @@ ul#shipping_method {
     }
 
     li.method {
-        border:none;
+        border: none;
     }
 }
 
@@ -1329,7 +1329,7 @@ ul#shipping_method {
         @include pie-clearfix;
 
         h3 {
-            float:left;
+            float: left;
         }
         .edit {
             float: right;
@@ -1341,7 +1341,7 @@ ol.commentlist.notes {
     li.note {
 
         p.meta {
-            font-weight:bold;
+            font-weight: bold;
             margin-bottom: 0;
         }
         .description {
@@ -1355,7 +1355,7 @@ ul.digital-downloads {
     margin-left: 0;
     padding-left: 0;
     li {
-        list-style:none;
+        list-style: none;
         margin-left: 0;
         padding-left: 1.5em;
         background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAAQUlEQVQIHWP8//8/AwgwMjLWgxlQAijeCGIyIQtiYxNUwAjUhWI0uilMMLvQJUB8kBzYCmyKYGJwN8AEYDphJgIAPtccffZCsOoAAAAASUVORK5CYII=") left no-repeat; /* download icon */
@@ -1372,14 +1372,14 @@ ul.digital-downloads {
     margin: 0;
     padding: 0;
     border: 0;
-    list-style:none outside;
+    list-style: none outside;
     li {
         @include pie-clearfix;
         padding: 0 0 1px;
-        list-style:none;
+        list-style: none;
         a, span {
             padding: 1px 0;
-            float:left;
+            float: left;
         }
     }
     li.chosen {
@@ -1416,15 +1416,15 @@ ul.digital-downloads {
             font-size: 1.15em;
         }
         .button {
-            float:left;
+            float: left;
         }
     }
    .ui-slider {
         position: relative;
-        text-align:left;
+        text-align: left;
     }
    .ui-slider .ui-slider-handle {
-        position:absolute;
+        position: absolute;
         z-index: 2;
         width: 0.9em;
         height: 0.9em;
@@ -1432,7 +1432,7 @@ ul.digital-downloads {
         border: 1px solid darken( $tertiary, 50 );
         cursor: pointer;
         @include vertical-gradient( $tertiary, darken( $tertiary, 10 ));
-        outline:none;
+        outline: none;
         top: -.3em;
         @include box-shadow( 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.65) );
 
@@ -1441,10 +1441,10 @@ ul.digital-downloads {
         }
     }
    .ui-slider .ui-slider-range {
-        position:absolute;
+        position: absolute;
         z-index: 1;
         font-size: .7em;
-        display:block;
+        display: block;
         border: 0;
         background: $tertiary url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC") top repeat-x; /* transparent png */
         @include box-shadow( inset 0 0 0 1px rgba(0, 0, 0, 0.5) );

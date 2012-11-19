@@ -9,7 +9,7 @@ WooCommerce Styles with Compass/SASS
 
 ## Installation ##
 
-Put the files in the theme as you like or keep the structure of directories.
+Add the files in the folder of your theme keeping this structure.
 
 Run the following command to generate the css file:
 

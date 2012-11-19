@@ -1,7 +1,11 @@
 WooCommerce Compass
 ===================
 
-WooCommerce Styles with Compass/SASS
+WooCommerce Styles with Compass/SASS.
+
+In this project only convert the styles of front-end WooCommerce for Compass/SASS.
+
+There was no modified styles of the original file in LESS.
 
 ## Requirements ##
 
@@ -25,3 +29,7 @@ Paste in your functions.php:
     add_action( 'wp_enqueue_scripts', 'cs_woocommerce_compass' );
 
 Now in the WooCommerce settings just deactivate the CSS.
+
+## License ##
+
+WooCommerce Compass is released under the GPL.

@@ -1,15 +1,16 @@
 WooCommerce Compass
 ===================
 
-WooCommerce Styles with Compass/SASS.
+WooCommerce Styles with SASS/Compass.
 
-In this project only convert the styles of front-end WooCommerce for Compass/SASS.
+In this project only convert the styles of front-end WooCommerce for SASS/Compass.
 
 There was no modified styles of the original file in LESS.
 
 ## Requirements ##
 
-* Compass/SASS
+* SASS/Compass
+* WooCommerce 2.0.1 or later
 
 ## Installation ##
 

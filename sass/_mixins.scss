@@ -94,5 +94,11 @@ $woocommerce: #ad74a2;
 .clear { clear: both; }
 .nobr { white-space: nowrap; }
 
-@mixin darkorlighttextshadow( $a, $opacity: 0.8 ) { @if (lightness($a) >= 65%) { @include text_shadow( 0, -1px, 0, rgba(0,0,0,$opacity) ); } }
-@mixin darkorlighttextshadow( $a, $opacity: 0.8 ) { @if (lightness($a) < 65%) { @include text_shadow( 0, 1px, 0, rgba(255,255,255,$opacity) ); } }
+@mixin darkorlighttextshadow( $a, $opacity: 0.8 ) {
+    @if lightness( $a ) >= 65% {
+        @include text_shadow( 0, -1px, 0, rgba(0, 0, 0, $opacity) );
+    } @else {
+        @include text_shadow( 0, 1px, 0, rgba(255, 255, 255, $opacity) );
+    }
+}
+

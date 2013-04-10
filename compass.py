@@ -90,7 +90,7 @@ woocommerce_items = {
     """$include""": """@include""",
     """$media""": """@media""",
     """$2x""": """@2x""",
-    """$-moz-document""": """@-moz-document""",
+    """$font-face""": """@font-face""",
 }
 
 generate_sass_file('./less/woocommerce.less', './sass/woocommerce.scss', woocommerce_items)

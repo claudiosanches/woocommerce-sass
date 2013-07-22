@@ -10,11 +10,7 @@ There was no modified styles of the original file in LESS.
 ## Requirements ##
 
 * SASS/Compass
-<<<<<<< HEAD
-* WooCommerce 2.0.1 or later
-=======
 * WooCommerce 2.0.13 or later
->>>>>>> compile
 
 ## Installation ##
 

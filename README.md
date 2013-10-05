@@ -27,6 +27,7 @@ Paste in your functions.php:
 
         wp_enqueue_style( 'woocommerce-compass' );
     }
+
     add_action( 'wp_enqueue_scripts', 'cs_woocommerce_compass' );
 
 Now in the WooCommerce settings just deactivate the CSS.

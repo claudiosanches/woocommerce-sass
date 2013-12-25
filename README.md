@@ -36,4 +36,4 @@ Now in the WooCommerce settings just deactivate the CSS.
 
 ## License ##
 
-WooCommerce SASS is released under the GPL.
+WooCommerce SASS is released under GPLv2.

@@ -1,15 +1,15 @@
-WooCommerce SASS
+WooCommerce Sass
 ===================
 
-WooCommerce Styles with SASS.
+WooCommerce Styles with Sass.
 
-In this project only convert the styles of front-end WooCommerce for SASS.
+In this project only convert the styles of front-end WooCommerce for Sass.
 
 There was no modified styles of the original file in LESS.
 
 ## Requirements ##
 
-* SASS
+* Sass
 * WooCommerce 2.0.19 or later
 
 ## Installation ##
@@ -36,4 +36,4 @@ Now in the WooCommerce settings just deactivate the CSS.
 
 ## License ##
 
-WooCommerce SASS is released under GPLv2.
+WooCommerce Sass is released under GPLv2.

@@ -1,6 +1,8 @@
 WooCommerce Sass
 ===================
 
+## Deprecated since WooCommerce 2.3! ##
+
 WooCommerce Styles with Sass.
 
 In this project only convert the styles of front-end WooCommerce for Sass.
